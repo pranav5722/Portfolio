@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MessageSquare, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, LinkedinIcon, Send, CheckCircle, AlertCircle, GithubIcon } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 // Replace these with your EmailJS credentials
@@ -199,18 +199,25 @@ export function Contact() {
 
           <div className="mt-12 flex justify-center space-x-6">
             <a
-              href="mailto:contact@example.com"
+              href="mailto:pranavdixit5722@gmail.com"
               className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-accent dark:hover:text-accent"
             >
               <Mail className="w-5 h-5" />
               <span>Email</span>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/pranav-dixit-89005a225/"
               className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-accent dark:hover:text-accent"
             >
-              <MessageSquare className="w-5 h-5" />
-              <span>Chat</span>
+              <LinkedinIcon className="w-5 h-5" />
+              <span>LinkedIn</span>
+            </a>
+            <a
+              href="https://github.com/pranav5722"
+              className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-accent dark:hover:text-accent"
+            >
+              <GithubIcon className="w-5 h-5" />
+              <span>GitHub</span>
             </a>
           </div>
         </motion.div>
