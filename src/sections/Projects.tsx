@@ -25,14 +25,6 @@ const projects = [
     githubUrl: "https://github.com/pranav5722/CreditCardFraudDetection"
   },
   {
-    title: "Freelance Plateform",
-    description: "Plateform for Freelancers and client to come and collaborate together for their requirements.",
-    image: freelance,
-    tags: ["Node.js", "Express", "MongoDB", "React"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/pranav5722/FreeFlow"
-  },
-  {
     title: "CookEase:Quick Recipe Finder",
     description: "Frontend project to find recipe using API with search and filter functionality",
     image: cookease,
@@ -47,6 +39,14 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     liveUrl: "https://pranav5722.github.io/TypePace/",
     githubUrl: "https://github.com/pranav5722/TypePace"
+  },
+  {
+    title: "Freelance Plateform",
+    description: "Plateform for Freelancers and client to come and collaborate together for their requirements.",
+    image: freelance,
+    tags: ["Node.js", "Express", "MongoDB", "React"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/pranav5722/FreeFlow"
   },
   {
     title: "FileEase:File Management App",
