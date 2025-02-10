@@ -14,7 +14,7 @@ const projects = [
     image: art,
     tags: ["React", "Node.js", "TypeScript", "Tailwind"],
     liveUrl: "https://art-gallery-kappa-ten.vercel.app/",
-    githubUrl: "https://github.com/pranav5722/ARt-Gallery"
+    githubUrl: "https://github.com/pranav5722/ArtGallery"
   },
   {
     title: "Credit Card Fraud Detection",
